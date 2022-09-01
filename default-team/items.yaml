@@ -10,10 +10,10 @@ items:
     items:
       - kind: cloudbeesTemplatedJob
         catalog: tyler-demo-catalog
-        name: multiple-git-repo-pipelin
+        name: multiple-git-repo-pipeline
         model: tyler-demo-catalog/multi-git-pipeline
         attributes:
-        - value: multiple-git-repo-pipelin
+        - value: multiple-git-repo-pipeline
           key: name
         - value: https://github.com/tsingkofer-cb/oc-casc-bundle
           key: repoUrl1
