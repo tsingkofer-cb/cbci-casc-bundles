@@ -1,5 +1,12 @@
 jenkins:
   systemMessage: "Configured automatically by Configuration as Code for Controllers\n\n"
+globalCloudBeesPipelineTemplateCatalog:
+  catalogs:
+  - branchOrTag: "main"
+    scm:
+      git:
+        remote: "https://github.com/tsingkofer-cb/pipeline-template-catalog"
+    updateInterval: "1d"
 notificationConfiguration:
   enabled: true
   router: operationsCenter

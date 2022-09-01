@@ -1,0 +1,25 @@
+removeStrategy:
+  items: "none"
+  rbac: "sync"
+
+items:
+  - kind: folder
+    name: pipeline-template-demos
+    description: ''
+    displayName: pipeline-template-demos
+    items:
+      - kind: cloudbeesTemplatedJob
+        catalog: tyler-demo-catalog
+        name: multiple-git-repo-pipelin
+        model: tyler-demo-catalog/multi-git-pipeline
+        attributes:
+        - value: multiple-git-repo-pipelin
+          key: name
+        - value: https://github.com/tsingkofer-cb/oc-casc-bundle
+          key: repoUrl1
+        - value: https://github.com/tsingkofer-cb/pipeline-template-catalog
+          key: repoUrl2
+        - value: main
+          key: repoBranch2
+        - value: main
+          key: repoBranch1
