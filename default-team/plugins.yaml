@@ -85,7 +85,6 @@ plugins:
 - id: pipeline-milestone-step
 - id: pipeline-model-api
 - id: pipeline-model-declarative-agent
-- id: pipeline-model-definition
 - id: pipeline-model-extensions
 - id: pipeline-rest-api
 - id: pipeline-stage-step
