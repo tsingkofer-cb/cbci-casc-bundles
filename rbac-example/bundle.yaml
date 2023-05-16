@@ -1,0 +1,11 @@
+apiVersion: '1'
+id: 'examples'
+description: 'RBAC example'
+availabilityPattern: '.*'
+version: '1'
+
+parent: 'default-2.375.2'
+rbac:
+  - 'rbac.yaml'
+items:
+  - 'items.yaml'

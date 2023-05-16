@@ -1,0 +1,17 @@
+removeStrategy:
+  items: 'NONE'
+  rbac: 'SYNC'
+
+items:
+  - kind: folder
+    name: project-folder
+    description: ''
+    displayName: project-folder
+    groups:
+    - members:
+        users:
+        - tsingkofer-2
+      roles:
+      - name: developer
+        grantedAt: current
+      name: project-folder-group
