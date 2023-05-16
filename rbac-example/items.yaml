@@ -12,6 +12,13 @@ items:
         users:
         - tsingkofer-2
       roles:
-      - name: developer
+      - name: casc-developer
         grantedAt: current
-      name: project-folder-group
+      name: project-developer-group
+    - members:
+        users:
+        - readuser
+      roles:
+      - name: casc-browser
+        grantedAt: current
+      name: project-browser-group
