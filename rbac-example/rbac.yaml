@@ -25,14 +25,14 @@ roles:
 groups:
   - name: Administrators
     roles:
-      - name: administer
+      - name: casc-administer
         grantedAt: current 
     members:
       users:
         - tsingkofer
   - name: Browsers
     roles:
-      - name: browser
+      - name: casc-browser
     members:
       users:
         - tsingkofer-2
