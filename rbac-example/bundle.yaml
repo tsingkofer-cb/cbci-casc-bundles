@@ -5,6 +5,8 @@ availabilityPattern: '.*'
 version: '1'
 
 parent: 'default-2.375.2'
+jcasc:
+  - "jenkins.yaml"
 rbac:
   - 'rbac.yaml'
 items:
