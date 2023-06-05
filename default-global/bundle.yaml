@@ -4,7 +4,7 @@ description: 'Default CasC bundle'
 availabilityPattern: ''
 version: '1'
 
-jcasc:
-  - 'jenkins.yaml'
+# jcasc:
+#   - 'jenkins.yaml'
 items:
   - 'items.yaml'
