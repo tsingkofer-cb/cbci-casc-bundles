@@ -4,8 +4,6 @@ kube:
       - label: "agent"
 
 unclassified:
-    enabled: false
-    gracePeriod: 300
   provisioningLimitConfiguration:
     limit:
       executors: 50
