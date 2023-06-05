@@ -6,8 +6,6 @@ plugins:
   - id: aws-java-sdk-ec2
   - id: aws-java-sdk-minimal
   - id: blueocean-commons
-  - id: bootstrap4-api
-  - id: bootstrap5-api
   - id: bouncycastle-api
   - id: branch-api
   - id: caffeine-api
@@ -29,7 +27,6 @@ plugins:
   - id: cloudbees-platform-common
   - id: cloudbees-platform-data
   - id: cloudbees-plugin-usage
-  - id: cloudbees-prometheus
   - id: cloudbees-support
   - id: cloudbees-template
   - id: cloudbees-uc-data-api
@@ -38,23 +35,25 @@ plugins:
   - id: cloudbees-workflow-template
   - id: cloudbees-workflow-ui
   - id: command-launcher
+  - id: commons-lang3-api
+  - id: commons-text-api
   - id: configuration-as-code
   - id: credentials
   - id: credentials-binding
   - id: display-url-api
   - id: durable-task
-  - id: echarts-api
-  - id: font-awesome-api
   - id: git
   - id: git-client
-  - id: git-server
   - id: github
   - id: github-api
   - id: github-branch-source
-  - id: handlebars
   - id: handy-uri-templates-2-api
   - id: infradna-backup
+  - id: instance-identity
+  - id: ionicons-api
   - id: jackson2-api
+  - id: jakarta-activation-api
+  - id: jakarta-mail-api
   - id: javax-activation-api
   - id: javax-mail-api
   - id: jaxb
@@ -62,7 +61,6 @@ plugins:
   - id: jjwt-api
   - id: jquery3-api
   - id: jsch
-  - id: junit
   - id: kube-agent-management
   - id: kubernetes
   - id: kubernetes-client-api
@@ -70,9 +68,10 @@ plugins:
   - id: mailer
   - id: managed-master-hibernation
   - id: mapdb-api
-  - id: matrix-project
   - id: metrics
-  - id: momentjs
+  - id: mina-sshd-api-common
+  - id: mina-sshd-api-core
+  - id: mina-sshd-api-sftp
   - id: nectar-license
   - id: nectar-rbac
   - id: node-iterator-api
@@ -99,8 +98,6 @@ plugins:
   - id: pipeline-stage-view
   - id: plain-credentials
   - id: plugin-util-api
-  - id: popper-api
-  - id: popper2-api
   - id: scm-api
   - id: script-security
   - id: snakeyaml-api
@@ -118,7 +115,6 @@ plugins:
   - id: workflow-basic-steps
   - id: workflow-cps
   - id: workflow-cps-checkpoint
-  - id: workflow-cps-global-lib
   - id: workflow-durable-task-step
   - id: workflow-job
   - id: workflow-multibranch
