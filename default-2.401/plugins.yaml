@@ -110,6 +110,7 @@ plugins:
   - id: unique-id
   - id: user-activity-monitoring
   - id: variant
+  - id: warnings-ng-plugin
   - id: workflow-aggregator
   - id: workflow-api
   - id: workflow-basic-steps
