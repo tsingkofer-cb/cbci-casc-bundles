@@ -3,6 +3,14 @@ kube:
     templates:
       - label: "agent"
 
+globalCloudBeesPipelineTemplateCatalog:
+  catalogs:
+  - branchOrTag: "main"
+    scm:
+      git:
+        remote: "https://github.com/tsingkofer-cb/pipeline-template-catalog"
+    updateInterval: "1d"
+
 unclassified:
   provisioningLimitConfiguration:
     limit:
