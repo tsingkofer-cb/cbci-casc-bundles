@@ -15,3 +15,10 @@ items:
       - name: casc-developer
         grantedAt: current
       name: project-developer-group
+    - members:
+        users:
+        - readuser
+      roles:
+      - name: casc-browser
+        grantedAt: current
+      name: project-browser-group
