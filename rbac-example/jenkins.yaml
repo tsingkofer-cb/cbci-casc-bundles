@@ -1,2 +1,13 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - basicSSHUserPrivateKey:
+          id: "linux-agent-key"
+          privateKeySource:
+            directEntry:
+              privateKey: ${readFile:$SECRETS/linux-agent-keyPrivateKey}
+          scope: GLOBAL
+          username: "tsingkofer"
 jenkins:
   authorizationStrategy: "cloudBeesRoleBasedAccessControl" 
