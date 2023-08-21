@@ -6,7 +6,7 @@ credentials:
           id: "linux-agent-key"
           privateKeySource:
             directEntry:
-              privateKey: ${readFile:$SECRETS/linux-agent-keyPrivateKey}
+              privateKey: ${readFile:${SECRETS}/linux-agent-keyPrivateKey}
           scope: GLOBAL
           username: "tsingkofer"
 jenkins:
