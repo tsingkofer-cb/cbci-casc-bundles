@@ -18,7 +18,7 @@ items:
     - members:
        users:
        - readuser
-     roles:
-     - name: casc-browser
-       grantedAt: current
-     name: project-browser-group
+      roles:
+      - name: casc-browser
+        grantedAt: current
+      name: project-browser-group
