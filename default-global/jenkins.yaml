@@ -6,7 +6,7 @@ credentials:
           fileName: "list-folder-groups.groovy"
           id: "secret-test-file"
           scope: GLOBAL
-          secretBytes: "${readFileBase64:${SECRETS}/secret-test-file}"
+          secretBytes: "${readFile:${SECRETS}/secret-test-file}"
 kube:
   podTemplatesConfiguration:
     templates:
