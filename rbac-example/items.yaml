@@ -23,6 +23,9 @@ items:
         grantedAt: current
       name: project-browser-group
   - kind: folder
-    name: ${var_sysprop1}
+    name: another-folder
     description: ''
-    displayName: ${var_sysprop1}
+    displayName: another-folder
+    items:
+      - kind: pipeline
+        name: $var_sysprop1
