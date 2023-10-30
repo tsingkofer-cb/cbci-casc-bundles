@@ -26,7 +26,3 @@ items:
     name: another-folder
     description: ''
     displayName: another-folder
-    items:
-      - kind: pipeline
-        name: |
-          $var_sysprop1
