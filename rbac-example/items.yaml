@@ -22,7 +22,7 @@ items:
       - name: casc-browser
         grantedAt: current
       name: project-browser-group
-    - kind: folder
-      name: ${VAR_SYSPROP1}
-      description: ''
-      displayName: ${VAR_SYSPROP1}
+  - kind: folder
+    name: ${VAR_SYSPROP1}
+    description: ''
+    displayName: ${VAR_SYSPROP1}
