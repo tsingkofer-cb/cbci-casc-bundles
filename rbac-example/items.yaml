@@ -23,6 +23,6 @@ items:
         grantedAt: current
       name: project-browser-group
   - kind: folder
-    name: "${VAR_SYSPROP1}"
+    name: ${var_sysprop1}
     description: ''
-    displayName: "${VAR_SYSPROP1}"
+    displayName: ${var_sysprop1}
