@@ -5,7 +5,7 @@ removeStrategy:
 items:
   - kind: folder
     name: project-folder
-    description: "${VAR_SYSPROP1}"
+    description: ''
     displayName: project-folder
     groups:
     - members:
@@ -22,3 +22,7 @@ items:
       - name: casc-browser
         grantedAt: current
       name: project-browser-group
+    - kind: folder
+      name: ${VAR_SYSPROP1}
+      description: ''
+      displayName: ${VAR_SYSPROP1}
