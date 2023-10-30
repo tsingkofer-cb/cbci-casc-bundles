@@ -28,4 +28,5 @@ items:
     displayName: another-folder
     items:
       - kind: pipeline
-        name: $var_sysprop1
+        name: |
+          $var_sysprop1
