@@ -1,0 +1,2 @@
+variables:
+  - VAR_SYSPROP1: ${SYSPROP1}

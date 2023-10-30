@@ -11,3 +11,5 @@ rbac:
   - 'rbac.yaml'
 items:
   - 'items.yaml'
+variables:
+  - "variables.yaml"
