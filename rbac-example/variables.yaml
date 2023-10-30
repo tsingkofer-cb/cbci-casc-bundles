@@ -1,2 +1,2 @@
 variables:
-  - VAR_SYSPROP1: ${SYSPROP1}
+  - var_sysprop1: 'folderNameFromVariable'
