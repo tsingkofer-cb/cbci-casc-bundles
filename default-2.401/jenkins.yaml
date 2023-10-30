@@ -2,4 +2,4 @@ jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
   systemMessage: |
-    Configured automatically by Configuration as Code for Controllers (2.401) - ${var_sysprop1}
+    Configured automatically by Configuration as Code for Controllers (2.401) - ${SYSPROP1}
