@@ -9,3 +9,7 @@ configurations:
     includePlugins:
       beer:
         version: "42.v776b_04d96de3"
+      splunk-devops:
+        version: "1.10.1"
+      splunk-devops-extend:
+        version: "1.10.1"
