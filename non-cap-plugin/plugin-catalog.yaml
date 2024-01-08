@@ -8,4 +8,4 @@ configurations:
       productVersion: "[2.426.2.2]"
     includePlugins:
       beer:
-        version: "34.v27fe279176a_4"
+        version: "42.v776b_04d96de3"
