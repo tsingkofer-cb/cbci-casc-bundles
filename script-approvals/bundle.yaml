@@ -1,0 +1,9 @@
+apiVersion: '1'
+id: 'script-approvals'
+description: 'testing script approvals in casc'
+availabilityPattern: '.*'
+version: '1'
+
+parent: 'default-global'
+jcasc:
+  - 'jenkins.yaml'

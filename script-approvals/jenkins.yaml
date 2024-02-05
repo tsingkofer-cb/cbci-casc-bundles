@@ -1,0 +1,6 @@
+security:
+  scriptApproval:
+    approvedScriptHashes:
+    - "SHA512:514fc3bb8c285a412bd168abe3f037affdaa5e4fbbe70fc9d6fafda33882ab26a058d00eb62b4d1dc4e84cb6909f177a4a9ca395800dbe0bc1f3ca1a183d6081"
+    approvedSignatures:
+    - "method groovy.json.JsonBuilder call java.util.List"
