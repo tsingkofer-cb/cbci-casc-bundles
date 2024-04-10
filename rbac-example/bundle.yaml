@@ -4,7 +4,7 @@ description: 'RBAC example'
 availabilityPattern: '.*'
 version: '2'
 
-parent: 'default-2.401'
+parent: 'default-2.440'
 jcasc:
   - "jenkins.yaml"
 rbac:

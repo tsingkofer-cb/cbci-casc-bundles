@@ -1,2 +1,5 @@
 .idea
 *.iml
+/non-cap-plugin/target
+/non-cap-plugin/.cache
+.DS_Store
