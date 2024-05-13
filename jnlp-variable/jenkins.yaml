@@ -1,5 +1,26 @@
 jenkins:
-  clouds:
-    - operationsCenterAgentProvisioningService
   systemMessage: |
     JNLP IMAGE: ${jnlp_base_image}
+  clouds:
+  - "operationsCenterAgentProvisioningService"
+  - kubernetes:
+      containerCap: 10
+      containerCapStr: "10"
+      name: "kube2"
+      templates:
+      - containers:
+        - args: "9999999"
+          command: "sleep"
+          image: ${jnlp_base_image}
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jnlp"
+          workingDir: "/home/jenkins/agent"
+        id: "eda73bac-bc43-4b65-b430-57c806cfca07"
+        label: "jnlp-base"
+        name: "jnlp-base"
+        yamlMergeStrategy: "override"
