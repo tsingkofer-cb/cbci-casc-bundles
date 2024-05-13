@@ -1,0 +1,11 @@
+apiVersion: '1'
+id: 'jnlp-variable'
+description: 'testing variable for jnlp image'
+availabilityPattern: '.*'
+version: '1'
+
+# parent: 'default-global'
+jcasc:
+  - 'jenkins.yaml'
+variables:
+  - "variables.yaml"

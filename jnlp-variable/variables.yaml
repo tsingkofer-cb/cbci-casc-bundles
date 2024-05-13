@@ -1,0 +1,2 @@
+variables:
+  - jnlp_base_image: "cloudbees/cloudbees-core-agent:2.440.3.7"

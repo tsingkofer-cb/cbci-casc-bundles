@@ -1,0 +1,5 @@
+jenkins:
+  clouds:
+    - operationsCenterAgentProvisioningService
+  systemMessage: |
+    JNLP IMAGE: ${jnlp_base_image}
