@@ -3,11 +3,15 @@ version: "1"
 name: "my-plugin-catalog"
 displayName: "My Plugin Catalog (offline)"
 configurations:
-  - description: "These are Non-CAP plugins for version 2.440.2.1"
+  - description: "These are Non-CAP plugins for version 2.414.2.2"
     prerequisites:
-      productVersion: "[2.440.2.1]"
+      productVersion: "[2.414.2.2]"
     includePlugins:
-      atlassian-bitbucket-server-integration:
-        url: "https://nexus.tsingkofer.ps.beescloud.com/repository/cb-uc-proxy/download/plugins/atlassian-bitbucket-server-integration/4.0.0/atlassian-bitbucket-server-integration.hpi"
-      beer:
-        url: "https://nexus.tsingkofer.ps.beescloud.com/repository/cb-uc-proxy/download/plugins/beer/42.v776b_04d96de3/beer.hpi"
+      pipeline-utility-steps:
+        version: "2.16.0"
+  - description: "These are Non-CAP plugins for version 2.452.2.3"
+    prerequisites:
+      productVersion: "[2.452.2.3]"
+    includePlugins:
+      pipeline-utility-steps:
+        version: "2.16.2"

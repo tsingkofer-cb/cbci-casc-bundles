@@ -1,6 +1,5 @@
 plugins:
-  - id: atlassian-bitbucket-server-integration # 3rd src
-  - id: beer # 3rd src
+  - id: pipeline-utility-steps # 3rd src
   - id: cloudbees-blueocean-default-theme # cap src
   - id: cloudbees-casc-client # cap src
   - id: cloudbees-casc-items-controller # cap src
