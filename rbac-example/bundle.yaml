@@ -1,7 +1,7 @@
 apiVersion: '1'
 id: 'examples'
 description: 'RBAC example'
-availabilityPattern: '.*'
+#availabilityPattern: '.*'
 version: '2'
 
 parent: 'default-2.440'
