@@ -4,7 +4,7 @@ description: 'testing plugin catalog for non-cap plugins'
 availabilityPattern: '.*casc-validation-testing.*'
 version: '1'
 
-#parent: 'default-global'
+parent: 'default-global'
 plugins:
   - 'plugins.yaml'
 catalog:
