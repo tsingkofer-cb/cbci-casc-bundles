@@ -20,6 +20,6 @@ configurations:
       productVersion: "[2.462.1.3]"
     includePlugins:
       commons-compress-api:
-        version: "1.26.1-1"
+        version: "1.26.1-2"
       pipeline-utility-steps:
         version: "2.17.0"
