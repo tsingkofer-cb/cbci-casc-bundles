@@ -1,4 +1,5 @@
 plugins:
+  - id: commons-compress-api # 3rd src
   - id: pipeline-utility-steps # 3rd src
   - id: cloudbees-blueocean-default-theme # cap src
   - id: cloudbees-casc-client # cap src
