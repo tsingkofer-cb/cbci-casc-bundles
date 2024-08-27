@@ -9,3 +9,5 @@ plugins:
   - 'plugins.yaml'
 catalog:
   - 'plugin-catalog.yaml'
+items:
+  - 'items.yaml'
