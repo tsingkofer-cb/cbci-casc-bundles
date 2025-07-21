@@ -31,4 +31,4 @@ repositories:
 credentials:
   - id: "admin"
     user: "admin"
-    password: ${file:/home/jenkins/password.txt}"
+    password: ${file:/var/run/secrets/password}"
