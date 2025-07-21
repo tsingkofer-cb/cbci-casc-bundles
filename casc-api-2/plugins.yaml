@@ -16,10 +16,11 @@ plugins:
   - id: operations-center-cloud # cap src
   - id: operations-center-notification # cap src
   - id: pipeline-event-step # cap src
-  - id: pipeline-utility-steps # 3rd src
   - id: sshd # cap src
   - id: workflow-aggregator # cap src
-
+  - id: pipeline-utility-steps # 3rd src
+    url: "http://artifactory.artifactory:8081/artifactory/cb-plugins/pipeline-utility-steps/2.19.0/pipeline-utility-steps.hpi"
+    credentialsId: "admin"
 
 #Repositories
 repositories:
