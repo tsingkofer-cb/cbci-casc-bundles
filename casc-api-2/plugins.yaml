@@ -1,0 +1,34 @@
+plugins:
+  - id: cloudbees-blueocean-default-theme # cap src
+  - id: cloudbees-casc-client # cap src
+  - id: cloudbees-casc-items-controller # cap src
+  - id: cloudbees-groovy-view # cap src
+  - id: cloudbees-monitoring # cap src
+  - id: cloudbees-nodes-plus # cap src
+  - id: cloudbees-view-creation-filter # cap src
+  - id: cloudbees-workflow-template # cap src
+  - id: cloudbees-workflow-ui # cap src
+  - id: github-branch-source # cap src
+  - id: infradna-backup # cap src
+  - id: jsch # cap src
+  - id: junit # cap
+  - id: managed-master-hibernation # cap src
+  - id: operations-center-cloud # cap src
+  - id: operations-center-notification # cap src
+  - id: pipeline-event-step # cap src
+  - id: pipeline-utility-steps # 3rd src
+  - id: sshd # cap src
+  - id: workflow-aggregator # cap src
+
+
+#Repositories
+repositories:
+  - id: "artifactory"
+    layout: "artifactory"
+    url: "http://artifactory.artifactory:8081/artifactory/cb-plugins"
+    credentialsId: "admin"
+# Credentials
+credentials:
+  - id: "admin"
+    user: "admin"
+    password: ${file:/home/jenkins/password.txt}"

@@ -1,0 +1,11 @@
+apiVersion: '2'
+id: 'casc-api-2'
+description: 'testing api v2.0 with plugin catalog'
+availabilityPattern: '.*'
+version: '1'
+
+parent: 'default-global'
+plugins:
+  - 'plugins.yaml'
+catalog:
+  - 'plugin-catalog.yaml'
