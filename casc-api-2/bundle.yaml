@@ -1,6 +1,6 @@
-apiVersion: '2'
+apiVersion: '1'
 id: 'casc-api-2'
-description: 'testing api v2.0 with plugin catalog'
+description: 'testing sort of anonymous artifactory via plugin catalog'
 availabilityPattern: '.*'
 version: '1'
 

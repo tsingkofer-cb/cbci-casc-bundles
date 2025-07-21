@@ -19,17 +19,4 @@ plugins:
   - id: sshd # cap src
   - id: workflow-aggregator # cap src
   - id: pipeline-utility-steps # 3rd src
-    url: "http://artifactory.artifactory:8081/artifactory/cb-plugins/pipeline-utility-steps/2.19.0/pipeline-utility-steps.hpi"
-    credentialsId: "admin"
-
-#Repositories
-repositories:
-  - id: "artifactory"
-    layout: "artifactory"
-    url: "http://artifactory.artifactory:8081/artifactory/cb-plugins"
-    credentialsId: "admin"
-# Credentials
-credentials:
-  - id: "admin"
-    user: "admin"
-    password: ${file:/var/run/secrets/password}"
+  
