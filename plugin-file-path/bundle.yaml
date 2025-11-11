@@ -1,0 +1,10 @@
+apiVersion: '2'
+id: 'plugin-file-path'
+description: 'testing file path with v2'
+availabilityPattern: '.*'
+version: '1'
+
+plugins:
+  - 'plugins.yaml'
+catalog:
+  - 'plugin-catalog.yaml'
