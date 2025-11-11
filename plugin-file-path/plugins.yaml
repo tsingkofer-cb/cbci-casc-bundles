@@ -19,6 +19,6 @@ plugins:
   - id: sshd # cap src
   - id: workflow-aggregator # cap src
   - id: pipeline-utility-steps # 3rd src
-  - id: "beer"
-    url: file:///var/plugins/beer.hpi
+  # - id: "beer"
+  #   url: file:///var/plugins/beer.hpi
   
