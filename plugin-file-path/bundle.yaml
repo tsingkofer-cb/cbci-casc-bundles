@@ -4,6 +4,8 @@ description: 'testing file path with v2'
 availabilityPattern: '.*'
 version: '1'
 
+jcasc:
+  - 'jenkins.yaml'
 plugins:
   - 'plugins.yaml'
 catalog:
