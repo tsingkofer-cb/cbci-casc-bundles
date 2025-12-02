@@ -1,2 +1,3 @@
 jenkins:
-  systemMessage: "If you're seeing this, it worked in ${INSTANCE}."
+  systemMessage: |
+    If you're seeing this, it worked in ${INSTANCE}.
