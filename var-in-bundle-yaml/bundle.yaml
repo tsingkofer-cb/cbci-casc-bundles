@@ -6,3 +6,5 @@ version: '1'
 
 jcasc:
   - "${FILE_NAME}.yaml"
+variables:
+  - "variables.yaml"
