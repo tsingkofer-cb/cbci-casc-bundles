@@ -1,8 +1,9 @@
 apiVersion: '1'
-id: 'var-in-bundle-yaml'
+id: 'child-var-in-bundle-yaml'
 description: 'Test CasC bundle'
 availabilityPattern: ''
 version: '1'
+parent: 'var-in-bundle-yaml'
 
 jcasc:
-  - "jenkins.yaml"
+  - "uat.yaml"

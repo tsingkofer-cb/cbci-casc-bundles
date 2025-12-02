@@ -1,0 +1,26 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - file:
+          fileName: "list-folder-groups.groovy"
+          id: "secret-test-file"
+          scope: GLOBAL
+          secretBytes: "${readFileBase64:${SECRETS}/secret-test-file}"
+      - file:
+          fileName: "pci-apigee-hybrid-dev-7cb8755e94d1.json"
+          id: "apigee-hybrid-dev-sa"
+          scope: GLOBAL
+          secretBytes: ${readFileBase64:${SECRETS}/apigee-hybrid-dev-saSecretFile}
+kube:
+  podTemplatesConfiguration:
+    templates:
+      - label: "agent"
+
+unclassified:
+  provisioningLimitConfiguration:
+    limit:
+      executors: 50
+      nodes: 50
+  usageStatisticsCloudBees:
+    usageStatisticsCollected: false
