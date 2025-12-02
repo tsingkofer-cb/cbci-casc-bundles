@@ -5,5 +5,5 @@ availabilityPattern: ''
 version: '1'
 parent: 'var-in-bundle-yaml'
 
-jcasc:
-  - "uat.yaml"
+variables:
+  - "variables.yaml"
