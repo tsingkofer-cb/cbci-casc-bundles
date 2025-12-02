@@ -1,0 +1,2 @@
+jenkins:
+  systemMessage: "If you're seeing this, it worked in UAT."
