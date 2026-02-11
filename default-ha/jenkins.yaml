@@ -41,6 +41,20 @@ unclassified:
               gitSource:
                 credentialsId: "github-key"
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
+  globalUntrustedLibraries:
+    libraries:
+      - allowVersionOverride: true
+        defaultVersion: "main"
+        implicit: false
+        includeInChangesets: false
+        name: "pipeline-untrusted"
+        retriever:
+          modernSCM:
+            clone: true
+            scm:
+              gitSource:
+                credentialsId: "github-key"
+                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
   gitHubPluginConfig:
     configs:
       - credentialsId: "github-token"
